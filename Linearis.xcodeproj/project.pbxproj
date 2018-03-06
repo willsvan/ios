@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F7731DA17B23F617C714645 /* Pods_LinearisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919682DF17AE3A7D35B398D3 /* Pods_LinearisUITests.framework */; };
+		1281381E203C80B800D6B228 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281381D203C80B800D6B228 /* DashboardViewController.swift */; };
 		1291736D203773DF00252217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1291736C203773DF00252217 /* AppDelegate.swift */; };
-		1291736F203773DF00252217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1291736E203773DF00252217 /* ViewController.swift */; };
 		12917372203773DF00252217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12917370203773DF00252217 /* Main.storyboard */; };
 		12917375203773DF00252217 /* Linearis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12917373203773DF00252217 /* Linearis.xcdatamodeld */; };
 		12917377203773DF00252217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12917376203773DF00252217 /* Assets.xcassets */; };
 		1291737A203773DF00252217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12917378203773DF00252217 /* LaunchScreen.storyboard */; };
 		12917385203773DF00252217 /* LinearisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12917384203773DF00252217 /* LinearisTests.swift */; };
 		12917390203773DF00252217 /* LinearisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1291738F203773DF00252217 /* LinearisUITests.swift */; };
+		1291739E2037881300252217 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1291739D2037881300252217 /* LoginViewController.swift */; };
+		129173A02037882600252217 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1291739F2037882600252217 /* SignupViewController.swift */; };
+		129173E320378FA300252217 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 129173E220378FA300252217 /* GoogleService-Info.plist */; };
+		A9A2B152DAB718BAA42D0A2B /* Pods_LinearisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A3663BFF59B5F7C5BBC5A9 /* Pods_LinearisTests.framework */; };
+		FB457EF2C24A09626AF35DFD /* Pods_Linearis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59713BE1ABDC3FF8CF5A12B8 /* Pods_Linearis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1281381D203C80B800D6B228 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		12917369203773DF00252217 /* Linearis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linearis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1291736C203773DF00252217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1291736E203773DF00252217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12917371203773DF00252217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12917374203773DF00252217 /* Linearis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Linearis.xcdatamodel; sourceTree = "<group>"; };
 		12917376203773DF00252217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,18 @@
 		1291738B203773DF00252217 /* LinearisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1291738F203773DF00252217 /* LinearisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearisUITests.swift; sourceTree = "<group>"; };
 		12917391203773DF00252217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1291739D2037881300252217 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1291739F2037882600252217 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		129173E220378FA300252217 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59713BE1ABDC3FF8CF5A12B8 /* Pods_Linearis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Linearis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60959305623DD3DB4A4E1404 /* Pods-LinearisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinearisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinearisUITests/Pods-LinearisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88A3663BFF59B5F7C5BBC5A9 /* Pods_LinearisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinearisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9171265729195D2A59639AD2 /* Pods-LinearisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinearisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinearisTests/Pods-LinearisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		919682DF17AE3A7D35B398D3 /* Pods_LinearisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinearisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		945036C5E3D177C3FF11D59A /* Pods-LinearisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinearisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinearisTests/Pods-LinearisTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7D2F014590012817D3CEA6B /* Pods-Linearis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Linearis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Linearis/Pods-Linearis.release.xcconfig"; sourceTree = "<group>"; };
+		D8E7AC552F15456E7F828F8B /* Pods-LinearisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinearisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinearisUITests/Pods-LinearisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E73DA21BB1449ACFF786A9EF /* Pods-Linearis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Linearis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Linearis/Pods-Linearis.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB457EF2C24A09626AF35DFD /* Pods_Linearis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A2B152DAB718BAA42D0A2B /* Pods_LinearisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7731DA17B23F617C714645 /* Pods_LinearisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				12917383203773DF00252217 /* LinearisTests */,
 				1291738E203773DF00252217 /* LinearisUITests */,
 				1291736A203773DF00252217 /* Products */,
+				5E9AC811AABB815110C190D2 /* Pods */,
+				429853E80EC172336C929E3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +123,15 @@
 			isa = PBXGroup;
 			children = (
 				1291736C203773DF00252217 /* AppDelegate.swift */,
-				1291736E203773DF00252217 /* ViewController.swift */,
 				12917370203773DF00252217 /* Main.storyboard */,
+				1291739D2037881300252217 /* LoginViewController.swift */,
+				1291739F2037882600252217 /* SignupViewController.swift */,
+				1281381D203C80B800D6B228 /* DashboardViewController.swift */,
 				12917376203773DF00252217 /* Assets.xcassets */,
 				12917378203773DF00252217 /* LaunchScreen.storyboard */,
 				1291737B203773DF00252217 /* Info.plist */,
 				12917373203773DF00252217 /* Linearis.xcdatamodeld */,
+				129173E220378FA300252217 /* GoogleService-Info.plist */,
 			);
 			path = Linearis;
 			sourceTree = "<group>";
@@ -128,6 +154,29 @@
 			path = LinearisUITests;
 			sourceTree = "<group>";
 		};
+		429853E80EC172336C929E3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59713BE1ABDC3FF8CF5A12B8 /* Pods_Linearis.framework */,
+				88A3663BFF59B5F7C5BBC5A9 /* Pods_LinearisTests.framework */,
+				919682DF17AE3A7D35B398D3 /* Pods_LinearisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E9AC811AABB815110C190D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E73DA21BB1449ACFF786A9EF /* Pods-Linearis.debug.xcconfig */,
+				C7D2F014590012817D3CEA6B /* Pods-Linearis.release.xcconfig */,
+				9171265729195D2A59639AD2 /* Pods-LinearisTests.debug.xcconfig */,
+				945036C5E3D177C3FF11D59A /* Pods-LinearisTests.release.xcconfig */,
+				D8E7AC552F15456E7F828F8B /* Pods-LinearisUITests.debug.xcconfig */,
+				60959305623DD3DB4A4E1404 /* Pods-LinearisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12917394203773DF00252217 /* Build configuration list for PBXNativeTarget "Linearis" */;
 			buildPhases = (
+				12D5AB89956581E6296306DA /* [CP] Check Pods Manifest.lock */,
 				12917365203773DF00252217 /* Sources */,
 				12917366203773DF00252217 /* Frameworks */,
 				12917367203773DF00252217 /* Resources */,
+				78C05D69F4C38123F2DFFF1A /* [CP] Embed Pods Frameworks */,
+				A3BABA300D939BB84B6FD482 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12917397203773DF00252217 /* Build configuration list for PBXNativeTarget "LinearisTests" */;
 			buildPhases = (
+				A01F38C9A57EC595C6119A89 /* [CP] Check Pods Manifest.lock */,
 				1291737C203773DF00252217 /* Sources */,
 				1291737D203773DF00252217 /* Frameworks */,
 				1291737E203773DF00252217 /* Resources */,
+				3803D4F82AA041DD838B5C38 /* [CP] Embed Pods Frameworks */,
+				8B3F0B504E98D0128FD75761 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1291739A203773DF00252217 /* Build configuration list for PBXNativeTarget "LinearisUITests" */;
 			buildPhases = (
+				331E09E312E8F1FF8E4A1D8F /* [CP] Check Pods Manifest.lock */,
 				12917387203773DF00252217 /* Sources */,
 				12917388203773DF00252217 /* Frameworks */,
 				12917389203773DF00252217 /* Resources */,
+				62A53F92F6A37FE2D3912351 /* [CP] Embed Pods Frameworks */,
+				C6F80685F7C2134F26178A67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1291737A203773DF00252217 /* LaunchScreen.storyboard in Resources */,
+				129173E320378FA300252217 /* GoogleService-Info.plist in Resources */,
 				12917377203773DF00252217 /* Assets.xcassets in Resources */,
 				12917372203773DF00252217 /* Main.storyboard in Resources */,
 			);
@@ -257,13 +316,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12D5AB89956581E6296306DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Linearis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		331E09E312E8F1FF8E4A1D8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinearisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3803D4F82AA041DD838B5C38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinearisTests/Pods-LinearisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62A53F92F6A37FE2D3912351 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinearisUITests/Pods-LinearisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78C05D69F4C38123F2DFFF1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Linearis/Pods-Linearis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Linearis/Pods-Linearis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B3F0B504E98D0128FD75761 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinearisTests/Pods-LinearisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01F38C9A57EC595C6119A89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinearisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3BABA300D939BB84B6FD482 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Linearis/Pods-Linearis-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Linearis/Pods-Linearis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F80685F7C2134F26178A67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinearisUITests/Pods-LinearisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12917365203773DF00252217 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1291739E2037881300252217 /* LoginViewController.swift in Sources */,
 				12917375203773DF00252217 /* Linearis.xcdatamodeld in Sources */,
-				1291736F203773DF00252217 /* ViewController.swift in Sources */,
+				1281381E203C80B800D6B228 /* DashboardViewController.swift in Sources */,
+				129173A02037882600252217 /* SignupViewController.swift in Sources */,
 				1291736D203773DF00252217 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +648,7 @@
 		};
 		12917395203773DF00252217 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73DA21BB1449ACFF786A9EF /* Pods-Linearis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +664,7 @@
 		};
 		12917396203773DF00252217 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D2F014590012817D3CEA6B /* Pods-Linearis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +680,7 @@
 		};
 		12917398203773DF00252217 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9171265729195D2A59639AD2 /* Pods-LinearisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +698,7 @@
 		};
 		12917399203773DF00252217 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945036C5E3D177C3FF11D59A /* Pods-LinearisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +716,7 @@
 		};
 		1291739B203773DF00252217 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E7AC552F15456E7F828F8B /* Pods-LinearisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +733,7 @@
 		};
 		1291739C203773DF00252217 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60959305623DD3DB4A4E1404 /* Pods-LinearisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
